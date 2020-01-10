@@ -17,10 +17,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    NSString *a = @"OCLintTest";
+    NSString *abbc = @"OCLintTest";
     NSInteger build = 10;
     
-    NSLog(@"%@, %d", a, build);
+    NSLog(@"%@, %d", abbc, build);
     
     int i = 0;
     // Do any additional setup after loading the view.

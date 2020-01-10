@@ -11,7 +11,7 @@ rm -rf "$compilecommandsJsonFolderPath/build"
 
 echo "${PROJECT_DIR} build start"
 
-xcodebuild SYMROOT=$buildPath | xcpretty -r json-compilation-database -o $compilecommandsJsonFilePath
+xcodebuild SYMROOT=$buildPath -UseModernBuildSystem=NO | xcpretty -r json-compilation-database -o $compilecommandsJsonFilePath
 
 echo "build finished"
 

@@ -30,6 +30,9 @@
 		621549DD23B5F67300B9BB92 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 621549DC23B5F67300B9BB92 /* main.m */; };
 		621549E723B5F67400B9BB92 /* OCLintTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 621549E623B5F67400B9BB92 /* OCLintTestTests.m */; };
 		621549F223B5F67400B9BB92 /* OCLintTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 621549F123B5F67400B9BB92 /* OCLintTestUITests.m */; };
+		6CAB491D32A3D0CD996A3D6B /* Pods_OCLintTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F587250FE8BB36791B5E28B /* Pods_OCLintTest.framework */; };
+		9EBF0D088C8C4511CBE0AAAE /* Pods_OCLintTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B7C7FB00734C919D8AFFC32 /* Pods_OCLintTestTests.framework */; };
+		C846068DC5A688271B4A98FE /* Pods_OCLintTest_OCLintTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC9A69D95B961286A55B9762 /* Pods_OCLintTest_OCLintTestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B7C7FB00734C919D8AFFC32 /* Pods_OCLintTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCLintTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F587250FE8BB36791B5E28B /* Pods_OCLintTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCLintTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F19C2EFC8639E262FCFCF08 /* Pods-OCLintTest-OCLintTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCLintTest-OCLintTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-OCLintTest-OCLintTestUITests/Pods-OCLintTest-OCLintTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4F42D3398C55FB04F10DF914 /* Pods-OCLintTest-OCLintTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCLintTest-OCLintTestUITests.release.xcconfig"; path = "Target Support Files/Pods-OCLintTest-OCLintTestUITests/Pods-OCLintTest-OCLintTestUITests.release.xcconfig"; sourceTree = "<group>"; };
 		621549C723B5F67200B9BB92 /* OCLintTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCLintTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		621549CA23B5F67200B9BB92 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		621549CB23B5F67200B9BB92 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,6 +75,11 @@
 		621549ED23B5F67400B9BB92 /* OCLintTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCLintTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		621549F123B5F67400B9BB92 /* OCLintTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCLintTestUITests.m; sourceTree = "<group>"; };
 		621549F323B5F67400B9BB92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A852D33968B5E55EA18A5D4 /* Pods-OCLintTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCLintTest.release.xcconfig"; path = "Target Support Files/Pods-OCLintTest/Pods-OCLintTest.release.xcconfig"; sourceTree = "<group>"; };
+		782F270F2EA60D9B376E9367 /* Pods-OCLintTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCLintTestTests.release.xcconfig"; path = "Target Support Files/Pods-OCLintTestTests/Pods-OCLintTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		97E350E7142DF301235A7E62 /* Pods-OCLintTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCLintTest.debug.xcconfig"; path = "Target Support Files/Pods-OCLintTest/Pods-OCLintTest.debug.xcconfig"; sourceTree = "<group>"; };
+		EEEBF7CAA23E0D8A4DAD5CE9 /* Pods-OCLintTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCLintTestTests.debug.xcconfig"; path = "Target Support Files/Pods-OCLintTestTests/Pods-OCLintTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FC9A69D95B961286A55B9762 /* Pods_OCLintTest_OCLintTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OCLintTest_OCLintTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CAB491D32A3D0CD996A3D6B /* Pods_OCLintTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EBF0D088C8C4511CBE0AAAE /* Pods_OCLintTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,12 +103,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C846068DC5A688271B4A98FE /* Pods_OCLintTest_OCLintTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BAF8DB075F79429238EC558 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97E350E7142DF301235A7E62 /* Pods-OCLintTest.debug.xcconfig */,
+				6A852D33968B5E55EA18A5D4 /* Pods-OCLintTest.release.xcconfig */,
+				4F19C2EFC8639E262FCFCF08 /* Pods-OCLintTest-OCLintTestUITests.debug.xcconfig */,
+				4F42D3398C55FB04F10DF914 /* Pods-OCLintTest-OCLintTestUITests.release.xcconfig */,
+				EEEBF7CAA23E0D8A4DAD5CE9 /* Pods-OCLintTestTests.debug.xcconfig */,
+				782F270F2EA60D9B376E9367 /* Pods-OCLintTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		621549BE23B5F67200B9BB92 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +131,8 @@
 				621549E523B5F67400B9BB92 /* OCLintTestTests */,
 				621549F023B5F67400B9BB92 /* OCLintTestUITests */,
 				621549C823B5F67200B9BB92 /* Products */,
+				3BAF8DB075F79429238EC558 /* Pods */,
+				B3E121FFF82B503B19DE935B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +182,16 @@
 			path = OCLintTestUITests;
 			sourceTree = "<group>";
 		};
+		B3E121FFF82B503B19DE935B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F587250FE8BB36791B5E28B /* Pods_OCLintTest.framework */,
+				FC9A69D95B961286A55B9762 /* Pods_OCLintTest_OCLintTestUITests.framework */,
+				0B7C7FB00734C919D8AFFC32 /* Pods_OCLintTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -158,9 +199,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 621549F623B5F67400B9BB92 /* Build configuration list for PBXNativeTarget "OCLintTest" */;
 			buildPhases = (
+				F52467EF292D388D1AB23F92 /* [CP] Check Pods Manifest.lock */,
 				621549C323B5F67200B9BB92 /* Sources */,
 				621549C423B5F67200B9BB92 /* Frameworks */,
 				621549C523B5F67200B9BB92 /* Resources */,
+				D073723B946F549C3C4A2F2E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -175,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 621549F923B5F67400B9BB92 /* Build configuration list for PBXNativeTarget "OCLintTestTests" */;
 			buildPhases = (
+				2517C32DBE90C0BDEF521037 /* [CP] Check Pods Manifest.lock */,
 				621549DE23B5F67400B9BB92 /* Sources */,
 				621549DF23B5F67400B9BB92 /* Frameworks */,
 				621549E023B5F67400B9BB92 /* Resources */,
@@ -193,9 +237,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 621549FC23B5F67400B9BB92 /* Build configuration list for PBXNativeTarget "OCLintTestUITests" */;
 			buildPhases = (
+				A42D063CFE3594EA4B52209A /* [CP] Check Pods Manifest.lock */,
 				621549E923B5F67400B9BB92 /* Sources */,
 				621549EA23B5F67400B9BB92 /* Frameworks */,
 				621549EB23B5F67400B9BB92 /* Resources */,
+				7556288102EE7442D79381A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -281,6 +327,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2517C32DBE90C0BDEF521037 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCLintTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		62154A0323B5F74E00B9BB92 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -297,6 +365,84 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/bash;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nchmod -R 777 $SRCROOT/oclint\n$SRCROOT/oclint/oclint.sh\n";
+		};
+		7556288102EE7442D79381A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCLintTest-OCLintTestUITests/Pods-OCLintTest-OCLintTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCLintTest-OCLintTestUITests/Pods-OCLintTest-OCLintTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCLintTest-OCLintTestUITests/Pods-OCLintTest-OCLintTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A42D063CFE3594EA4B52209A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCLintTest-OCLintTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D073723B946F549C3C4A2F2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCLintTest/Pods-OCLintTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-OCLintTest/Pods-OCLintTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OCLintTest/Pods-OCLintTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F52467EF292D388D1AB23F92 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCLintTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -477,6 +623,7 @@
 		};
 		621549F723B5F67400B9BB92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97E350E7142DF301235A7E62 /* Pods-OCLintTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -495,6 +642,7 @@
 		};
 		621549F823B5F67400B9BB92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A852D33968B5E55EA18A5D4 /* Pods-OCLintTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -513,6 +661,7 @@
 		};
 		621549FA23B5F67400B9BB92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEEBF7CAA23E0D8A4DAD5CE9 /* Pods-OCLintTestTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +681,7 @@
 		};
 		621549FB23B5F67400B9BB92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 782F270F2EA60D9B376E9367 /* Pods-OCLintTestTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +701,7 @@
 		};
 		621549FD23B5F67400B9BB92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F19C2EFC8639E262FCFCF08 /* Pods-OCLintTest-OCLintTestUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L2X2366UE2;
@@ -569,6 +720,7 @@
 		};
 		621549FE23B5F67400B9BB92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F42D3398C55FB04F10DF914 /* Pods-OCLintTest-OCLintTestUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L2X2366UE2;
